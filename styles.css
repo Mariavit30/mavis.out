@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    margin: 0;
+}
+
+.calculadora{
+    background-color: black
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px (0, 0, 0, 0,5);
+    text-align: center;
+    width:320px;
+
+}
+
+.display{
+    background-color: black;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    min-height: 50px;
+    text-align: right;
+}
+
+.buttons{
+    border: none;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 1.5rem;;
+}
