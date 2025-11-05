@@ -8,10 +8,10 @@ body{
 }
 
 .calculadora{
-    background-color: black
+    background-color: black;
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 0 0 10px (0, 0, 0, 0,5);
+    box-shadow: 0 0 10px (0, 0, 0, 0, 5);
     text-align: center;
     width:320px;
 
@@ -28,9 +28,33 @@ body{
     text-align: right;
 }
 
-.buttons{
+.button{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.button{
     border: none;
     border-radius: 50%;
     padding: 20px;
     font-size: 1.5rem;;
+    cursor: pointer;
+}
+
+.button.dark-gray{
+    background-color: black;
+    color: aliceblue;
+}
+.button.orange{
+    background-color: gold;
+    color: aliceblue;
+}
+.button.ligth-gray{
+    background-color: aliceblue;
+    color: black;
+}
+.button-wide{
+    grid-column: span;
+    border-radius: 50px;
 }
